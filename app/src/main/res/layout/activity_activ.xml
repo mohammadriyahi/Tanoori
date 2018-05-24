@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/wallpaper"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/wall" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-190pt"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editText6"
+                android:layout_width="150pt"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="@string/verify_code"
+                android:inputType="textPersonName"
+                android:shadowDx="7.0"
+                android:shadowDy="7.0"
+                android:shadowColor="#767676"
+
+                android:shadowRadius="10.0"
+                />
+
+            <Button
+                android:layout_marginTop="7pt"
+                android:layout_marginStart="40pt"
+                android:background="@drawable/shape"
+                android:id="@+id/verify"
+                android:layout_width="70pt"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/verify_btn" />
+
+            <Button
+                android:id="@+id/retry_verify"
+                android:layout_width="70pt"
+                android:background="@drawable/shape"
+                android:layout_marginTop="5pt"
+                android:layout_marginLeft="40pt"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="ارسال مجدد کد فعالسازی" />
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

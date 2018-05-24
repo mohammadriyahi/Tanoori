@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Tanoori</string>
+    <string name="todo">TODO</string>
+    <string name="Phone_enter">لطفا شماره تلفن همراه خود را وارد نمایید</string>
+    <string name="Reg_btn">ارسال کد فعال سازی</string>
+    <string name="wallpaper">img_wallpaper</string>
+    <string name="verify_code">لطفا کد فعالسازی را وارد کنید</string>
+    <string name="no_verify_code">ارسال مجدد کد فعالسازی</string>
+    <string name="verify_btn">فعالسازی</string>
+    <string name="main_wallpaper">main_wall_img</string>
+</resources>
